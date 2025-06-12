@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossas memorias</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dce3f7;
+    color: #3a3a3a;
+  }
+
+  header {
+    background-color: #1e2a55;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .entry {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+
+  .entry:hover {
+    transform: translateY(-5px);
+  }
+
+  .entry img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .entry .caption {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn {
+    background-color: #1e2a55;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #2c3d7a;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #1e2a55;
+    padding: auto;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+    p {
+    margin: 2vh;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  }
+</style>
+<body>
+  <header>
+    <h1>💞Memórias do nosso Amor💞</h1>
+    <p>Cada momento unico e especial do seu lado</p>
+  </header>
+
+  <main class="timeline">
+    <div class="entry">
+      <img src="/img/namoro.jpg" alt="Momento 1">
+      <div class="caption">Quando voce disse SIIM!💫</div>
+    </div>
+    <div class="entry">
+      <img src="/img/nova.jpg" alt="Momento 2">
+      <div class="caption">Aquele abraço que não ficamos sem🥰</div>
+    </div>
+    <div class="entry">
+      <img src="/img/nova2.jpg" alt="Momento 3">
+      <div class="caption">O sorriso que contamina quando estamos juntos💖</div>
+    </div>
+    <div class="entry">
+        <img src="/img/1.jpg" alt="Momento 3">
+        <div class="caption">O cheiro de algodão doce 💖</div>
+      </div>
+      <div class="entry">
+        <img src="/img/2.jpg" alt="Momento 3">
+        <div class="caption">A mulher que conforta o meu coração 💖</div>
+      </div>
+      <div class="entry">
+        <img src="/img/3.jpg" alt="Momento 3">
+        <div class="caption">Que tira minha postura independete do local 💖</div>
+      </div>
+      <div class="entry">
+        <img src="/img/4.jpg" alt="Momento 3">
+        <div class="caption">A dona do meu coraçaõ, minha gabriela💖</div>
+      </div>
+      <div class="buttons">
+        <a href="declaração.html" class="btn"> pra voce💖 </a>
+      </div>
+  </main>
+  <footer>
+    &copy; Os melhores momentos que tive em minha vida
+  </footer>
+</body>
+</html>
